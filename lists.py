@@ -22,3 +22,12 @@ food.append(del_elem) # Added again
 for x in food:
     print(x)
 
+print ("*" * 100)
+# 2D LISTS ------------------------------------------------
+drinks = ["coffee", "soda", "tea"]
+dinner = ["pizza", "hamburger", "hotdog"]
+dessert = ["cake", "ice cream"]
+
+food = [drinks, dinner, dessert]
+
+print(food[2][0])
