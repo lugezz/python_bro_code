@@ -10,8 +10,15 @@ food.pop()
 food.insert(0,"cake")
 food.sort()
 
+for x in food:
+    print(x)
+
+print ("*" * 100)
+# food.clear() # Delete everything
+del_elem = food.pop(2) # Delete item 2
+print(del_elem)
+food.append(del_elem) # Added again
 
 for x in food:
     print(x)
 
-food.clear() # Delete everything
